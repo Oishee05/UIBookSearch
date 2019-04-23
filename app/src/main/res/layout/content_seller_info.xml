@@ -23,27 +23,46 @@
             android:layout_below="@+id/linearlayout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="21dp"
-            android:text="Please choose one of the following" />
+            android:text="Please enter the following" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/Course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Course"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/PinCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Pin Code"
+            android:inputType="text" />
 
         <Button
-            android:id="@+id/BuyerButton"
+            android:id="@+id/SearchButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Buyer" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" OR" />
-
-        <Button
-            android:id="@+id/SellerButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="onClick"
-            android:text="SELLER" />
+            android:text="Search" />
 
     </LinearLayout>
 </RelativeLayout>

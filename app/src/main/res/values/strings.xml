@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UI Book Search</string>
+    <string name="title_activity_buyer_info">Buyer\'s Information</string>
+    <string name="title_activity_display_seller_location">DisplaySellerLocation</string>
+    <string name="title_activity_seller_info">Seller\'s Information</string>
+    <string name="title_activity_add_seller_location">Add the Seller Location</string>
 </resources>
